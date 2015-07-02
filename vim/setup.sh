@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp dotfile/vim/.vim   /home/vagrant/.vim
-cp dotfile/vim/.vimrc /home/vagrant/.vimrc
+cp -r dotfile/vim/.vim   $HOME/.vim
+cp dotfile/vim/.vimrc $HOME/.vimrc
 
-sudo ln -s /home/vagrant/.vimrc /root/.vimrc
-sudo ln -s /home/vagrant/.vim   /root/.vim
+sudo ln -s $HOME/.vimrc /root/.vimrc
+sudo ln -s $HOME/.vim   /root/.vim
