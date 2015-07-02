@@ -1,0 +1,6 @@
+
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+export TMUXIFIER_TMUX_OPTS="-2"
+export TERM="screen-256color"
+eval "$(tmuxifier init -)"
+alias tmux="tmux -2"
