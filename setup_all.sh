@@ -10,3 +10,8 @@ sudo chmod +x setup.sh
 ./setup.sh
 cd ..
 
+cd git
+sudo chmod +x setup.sh
+./setup.sh
+cd ..
+
