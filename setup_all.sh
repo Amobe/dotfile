@@ -15,3 +15,8 @@ sudo chmod +x setup.sh
 ./setup.sh
 cd ..
 
+cd fish
+./setup.sh
+cd ..
+
+
